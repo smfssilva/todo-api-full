@@ -31,6 +31,7 @@ public class Todo implements Serializable{
 	@Column
 	private Boolean done;
 	
+	
 	@Column
 	@JsonFormat(pattern = "dd/MM/yyyy HH:mm")
 	private LocalDateTime doneDate;
