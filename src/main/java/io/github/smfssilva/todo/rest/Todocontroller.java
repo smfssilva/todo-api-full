@@ -22,7 +22,7 @@ import io.github.smfssilva.todo.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("*")
 public class Todocontroller {
 
 	@Autowired
